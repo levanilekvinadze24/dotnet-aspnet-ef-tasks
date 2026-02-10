@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "+kPKCHVt58U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ConsoleClient\\ConsoleClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0\\microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0\\microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-preview.7.24405.7\\microsoft.extensions.dependencyinjection.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.7.24405.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.0-preview.7.24405.7\\microsoft.extensions.fileproviders.abstractions.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.logging.debug\\8.0.0\\microsoft.extensions.logging.debug.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.7.24405.7\\microsoft.extensions.primitives.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\nlog\\5.3.3\\nlog.5.3.3.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\nlog.extensions.logging\\5.3.12\\nlog.extensions.logging.5.3.12.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\levan\\.nuget\\packages\\xmlunit.core\\2.9.2\\xmlunit.core.2.9.2.nupkg.sha512"
+  ],
+  "logs": []
+}

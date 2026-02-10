@@ -1,0 +1,1373 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ConsoleClient\\ConsoleClient.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ConsoleClient\\ConsoleClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ConsoleClient\\ConsoleClient.csproj",
+        "projectName": "ConsoleClient",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ConsoleClient\\ConsoleClient.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ConsoleClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ExportDataService\\ExportDataService.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ExportDataService\\ExportDataService.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\InMemoryReceiver\\InMemoryReceiver.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\InMemoryReceiver\\InMemoryReceiver.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\JsonSerializer.Serialization\\JsonSerializer.Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\JsonSerializer.Serialization\\JsonSerializer.Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\TextFileReceiver\\TextFileReceiver.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\TextFileReceiver\\TextFileReceiver.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriConversion\\UriConversion.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriConversion\\UriConversion.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Validation\\Validation.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Validation\\Validation.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XDomWriter.Serialization\\XDomWriter.Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XDomWriter.Serialization\\XDomWriter.Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlDomWriter.Serialization\\XmlDomWriter.Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlDomWriter.Serialization\\XmlDomWriter.Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlSerializer.Serialization\\XmlSerializer.Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlSerializer.Serialization\\XmlSerializer.Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlWriter.Serialization\\XmlWriter.Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlWriter.Serialization\\XmlWriter.Serialization.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0-preview.7.24405.7, )"
+            },
+            "Microsoft.Extensions.FileProviders.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0-preview.7.24405.7, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.12, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj",
+        "projectName": "Conversion",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj",
+        "projectName": "DataReceiving",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ExportDataService\\ExportDataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ExportDataService\\ExportDataService.csproj",
+        "projectName": "ExportDataService",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ExportDataService\\ExportDataService.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\ExportDataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\InMemoryReceiver\\InMemoryReceiver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\InMemoryReceiver\\InMemoryReceiver.csproj",
+        "projectName": "InMemoryReceiver",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\InMemoryReceiver\\InMemoryReceiver.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\InMemoryReceiver\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\JsonSerializer.Serialization\\JsonSerializer.Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\JsonSerializer.Serialization\\JsonSerializer.Serialization.csproj",
+        "projectName": "JsonSerializer.Serialization",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\JsonSerializer.Serialization\\JsonSerializer.Serialization.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\JsonSerializer.Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj",
+        "projectName": "LogerExtensionDelegate",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj",
+        "projectName": "Serialization",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\TextFileReceiver\\TextFileReceiver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\TextFileReceiver\\TextFileReceiver.csproj",
+        "projectName": "TextFileReceiver",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\TextFileReceiver\\TextFileReceiver.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\TextFileReceiver\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\DataReceiving\\DataReceiving.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriConversion\\UriConversion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriConversion\\UriConversion.csproj",
+        "projectName": "UriConversion",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriConversion\\UriConversion.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriConversion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Conversion\\Conversion.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Validation\\Validation.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Validation\\Validation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj",
+        "projectName": "UriSerializationHelper",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Validation\\Validation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Validation\\Validation.csproj",
+        "projectName": "Validation",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Validation\\Validation.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Validation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XDomWriter.Serialization\\XDomWriter.Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XDomWriter.Serialization\\XDomWriter.Serialization.csproj",
+        "projectName": "XDomWriter.Serialization",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XDomWriter.Serialization\\XDomWriter.Serialization.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XDomWriter.Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlDomWriter.Serialization\\XmlDomWriter.Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlDomWriter.Serialization\\XmlDomWriter.Serialization.csproj",
+        "projectName": "XmlDomWriter.Serialization",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlDomWriter.Serialization\\XmlDomWriter.Serialization.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlDomWriter.Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlSerializer.Serialization\\XmlSerializer.Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlSerializer.Serialization\\XmlSerializer.Serialization.csproj",
+        "projectName": "XmlSerializer.Serialization",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlSerializer.Serialization\\XmlSerializer.Serialization.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlSerializer.Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "XMLUnit.Core": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlWriter.Serialization\\XmlWriter.Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlWriter.Serialization\\XmlWriter.Serialization.csproj",
+        "projectName": "XmlWriter.Serialization",
+        "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlWriter.Serialization\\XmlWriter.Serialization.csproj",
+        "packagesPath": "C:\\Users\\levan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\XmlWriter.Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\levan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\LogerExtensionDelegate\\LogerExtensionDelegate.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\Serialization\\Serialization.csproj"
+              },
+              "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj": {
+                "projectPath": "C:\\Users\\levan\\Source\\Repos\\dependency-injection-uri-serialization\\UriToSerializableObject\\UriSerializationHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
