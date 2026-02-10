@@ -1,0 +1,57 @@
+@model SportsStore.Models.Order
+
+<h2>Check out now</h2>
+<p>Please enter your details, and we'll ship your goods right away!</p>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Checkout" method="post">
+    <div class="form-group">
+        <label asp-for="Name" class="form-label" for="Name">Name</label>
+        <input asp-for="Name" class="form-control" id="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Line1" class="form-label" for="Line1">Address Line 1</label>
+        <input asp-for="Line1" class="form-control" id="Line1" />
+        <span asp-validation-for="Line1" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Line2" class="form-label" for="Line2">Address Line 2</label>
+        <input asp-for="Line2" class="form-control" id="Line2" />
+        <span asp-validation-for="Line2" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="City" class="form-label" for="City">City</label>
+        <input asp-for="City" class="form-control" id="City" />
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="State" class="form-label" for="State">State</label>
+        <input asp-for="State" class="form-control" id="State" />
+        <span asp-validation-for="State" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Zip" class="form-label" for="Zip">Zip</label>
+        <input asp-for="Zip" class="form-control" id="Zip" />
+        <span asp-validation-for="Zip" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Country" class="form-label" for="Country">Country</label>
+        <input asp-for="Country" class="form-control" id="Country" />
+        <span asp-validation-for="Country" class="text-danger"></span>
+    </div>
+
+    <div class="form-group form-check">
+        <input asp-for="GiftWrap" class="form-check-input" id="GiftWrap" />
+        <label asp-for="GiftWrap" class="form-check-label" for="GiftWrap">Gift wrap these items</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Complete Order</button>
+</form>

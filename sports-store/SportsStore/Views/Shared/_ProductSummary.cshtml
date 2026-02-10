@@ -1,0 +1,21 @@
+@using SportsStore.Models
+@using SportsStore.Infrastructure
+@model Product
+
+<div class="card m-2 p-2">
+    <div class="card-body">
+        <h5 class="card-title">
+            @Model.Name
+            <span class="badge bg-primary float-end">
+                @Model.Price.ToString("c")
+            </span>
+        </h5>
+        <p class="card-text">@Model.Description</p>
+
+        <form asp-action="AddToCart" asp-controller="Cart" method="post">
+            <input type="hidden" name="productId" value="@Model.ProductId" />
+            <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.Path" />
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+</div>

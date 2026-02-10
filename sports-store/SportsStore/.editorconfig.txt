@@ -1,0 +1,18 @@
+# Make this the root editorconfig
+root = true
+
+# Apply rules to all C# files
+[*.cs]
+
+# Treat all StyleCop rules as warnings
+dotnet_analyzer_diagnostic.category-StyleCop.severity = warning
+
+# Specific rule: prefix local calls with 'this.'
+dotnet_diagnostic.SA1101.severity = warning
+
+# Optional: add more common EPAM rules
+dotnet_diagnostic.SA1300.severity = warning    # Element must begin with upper-case
+dotnet_diagnostic.SA1309.severity = warning    # Field names must not begin with underscore
+dotnet_diagnostic.SA1600.severity = warning    # Elements must be documented
+dotnet_diagnostic.SA1615.severity = warning    # Element parameters must be documented
+dotnet_diagnostic.SA1649.severity = warning    # File name must match first type name

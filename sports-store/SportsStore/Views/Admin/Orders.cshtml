@@ -1,0 +1,15 @@
+@using SportsStore.Models
+@model IQueryable<Order>
+
+    @{
+    Layout = "_AdminLayout";
+    var unshippedOrders = Model.Where(o => !o.Shipped).ToList();
+    var shippedOrders = Model.Where(o => o.Shipped).ToList();
+    }
+
+    <partial name="_OrderTable" model="unshippedOrders" />
+    <partial name="_OrderTable" model="shippedOrders" />
+
+    <form asp-action="Orders" method="post">
+        <button class="btn btn-info">Refresh Data</button>
+    </form>

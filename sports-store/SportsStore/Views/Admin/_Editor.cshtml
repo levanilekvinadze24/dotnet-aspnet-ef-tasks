@@ -1,0 +1,47 @@
+@model (Product Product, string ThemeColor, string TitleText, string CallbackMethodName)
+
+<h3 class="bg-@Model.ThemeColor text-white text-center p-1">@Model.TitleText a Product</h3>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="@Model.CallbackMethodName" asp-controller="Admin" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            @if (Model.Product.ProductId != 0)
+            {
+            <div class="form-group">
+                <label asp-for="Product.ProductId" class="form-label"></label>
+                <input asp-for="Product.ProductId" class="form-control" readonly />
+            </div>
+            }
+
+            <div class="form-group">
+                <label asp-for="Product.Name" class="form-label"></label>
+                <input asp-for="Product.Name" class="form-control" />
+                <span asp-validation-for="Product.Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Product.Description" class="form-label"></label>
+                <textarea asp-for="Product.Description" class="form-control"></textarea>
+                <span asp-validation-for="Product.Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Product.Price" class="form-label"></label>
+                <input asp-for="Product.Price" class="form-control" />
+                <span asp-validation-for="Product.Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Product.Category" class="form-label"></label>
+                <input asp-for="Product.Category" class="form-control" />
+                <span asp-validation-for="Product.Category" class="text-danger"></span>
+            </div>
+
+            <div class="mt-2">
+                <button type="submit" class="btn btn-@Model.ThemeColor">Save</button>
+                <a class="btn btn-secondary" asp-controller="Admin" asp-action="Products">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

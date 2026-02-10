@@ -1,0 +1,49 @@
+@using SportsStore.Models
+@model IEnumerable<Order>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Shipped</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.Name</td>
+                <td>
+                    @order.Line1
+                    @if (!string.IsNullOrEmpty(order.Line2)) { <div>@order.Line2</div> }
+                    @if (!string.IsNullOrEmpty(order.Line3)) { <div>@order.Line3</div> }
+                </td>
+                <td>@order.City</td>
+                <td>@order.Country</td>
+                <td>@(order.Shipped ? "Yes" : "No")</td>
+                <td>
+                    @if (!order.Shipped)
+                    {
+                        <form asp-action="MarkShipped" asp-controller="Admin" method="post">
+                            <input type="hidden" name="orderId" value="@order.OrderId" />
+                            <button type="submit" class="btn btn-success btn-sm">Mark Shipped</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="Reset" asp-controller="Admin" method="post">
+                            <input type="hidden" name="orderId" value="@order.OrderId" />
+                            <button type="submit" class="btn btn-warning btn-sm">Reset</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
